@@ -1,0 +1,66 @@
+name: to_do_list_dev
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter  
+  
+  cupertino_icons: ^1.0.2
+  drag_and_drop_lists: ^0.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: LTWave
+      fonts:
+        - asset: assets/fonts/LTWave-Bold.ttf
+        - asset: assets/fonts/LTWave-Light.ttf
+        - asset: assets/fonts/LTWave-Regular.ttf
+
+  
+  
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
