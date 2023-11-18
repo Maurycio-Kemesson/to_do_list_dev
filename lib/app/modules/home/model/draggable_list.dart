@@ -1,10 +1,10 @@
 class DraggableList {
   final String listTitle;
-  final List<ActivityListItem> activityList;
+   List<ActivityListItem> activityList;
 
-  const DraggableList({
+   DraggableList({
     required this.listTitle,
-    required this.activityList,
+     this.activityList = const [],
   });
 }
 

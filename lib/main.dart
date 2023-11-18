@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:to_do_list_dev/app/presentation/home/home_page.dart';
+import 'package:to_do_list_dev/app/modules/home/presentation/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       darkTheme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-        appBarTheme: const AppBarTheme(backgroundColor: Colors.black),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Colors.black,
+        ),
         textTheme: const TextTheme(
           bodyMedium: TextStyle(
               color: Colors.white, fontFamily: 'LTWave', fontSize: 22),
@@ -25,7 +27,11 @@ class MyApp extends StatelessWidget {
       ),
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        appBarTheme: const AppBarTheme(backgroundColor: Color(0xff011c26)),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Color(0xff011c26),
+          iconTheme: IconThemeData(color: Colors.white),
+          actionsIconTheme: IconThemeData(color: Colors.white),
+        ),
         textTheme: const TextTheme(
           bodyMedium: TextStyle(
               color: Colors.white, fontFamily: 'LTWave', fontSize: 22),

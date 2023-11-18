@@ -1,9 +1,9 @@
-import 'package:to_do_list_dev/app/presentation/home/model/draggable_list.dart';
+import 'package:to_do_list_dev/app/modules/home/model/draggable_list.dart';
 
 List<DraggableList> allLists = [
-  const DraggableList(
+   DraggableList(
     listTitle: 'Pendentes',
-    activityList: [
+    activityList: const [
       ActivityListItem(
         title: 'Estudar Flutter',
         createDate: '10/11/2023',
@@ -14,18 +14,18 @@ List<DraggableList> allLists = [
       ),
     ],
   ),
-  const DraggableList(
+   DraggableList(
     listTitle: 'Em andamento',
-    activityList: [
+    activityList: const  [
       ActivityListItem(
         title: 'APS Dispositivos Móveis',
         createDate: '10/11/2023',
       ),
     ],
   ),
-  const DraggableList(
+   DraggableList(
     listTitle: 'Concluídas',
-    activityList: [
+    activityList: const [
       ActivityListItem(
         title: 'Estudar AWS',
         createDate: '10/11/2023',
