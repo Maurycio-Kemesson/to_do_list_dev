@@ -15,16 +15,30 @@ dependencies:
     sdk: flutter  
   
   cupertino_icons: ^1.0.2
-  drag_and_drop_lists: ^0.3.3
+
   
-  intl: ^0.18.1
+  intl: ^0.19.0
+  equatable: ^2.0.5
+  bloc: ^8.1.4
+  mocktail: ^1.0.3
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
+  path_provider: ^2.0.15
+  flutter_bloc: ^8.1.5
+  coverage: ^1.7.2
+  
+ 
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.2
   flutter_launcher_icons: ^0.13.1
+
+  build_runner: ^2.4.6
+  isar_generator: ^3.1.0+1
 
 flutter_launcher_icons:
   android: "launcher_icon"
